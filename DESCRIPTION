@@ -1,0 +1,12 @@
+Package: HeartPrediction
+Title: Cardiovascular Disease Prediction Using Random Forest
+Version: 0.0.0.9000
+Depends: R (>= 3.5.0)
+Authors@R: 
+    person("Zihan", "He", , "Zihan.He22@student.xjtlu.edu.cn", role = c("aut", "cre"))
+Description: An R package to preprocess heart disease data, train random forest models, and predict cardiovascular disease (CVD) outcomes. This package is developed for the BIO215 course project, following best practices to prevent data leakage and ensure reproducibility.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports: randomForest
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
